@@ -19,4 +19,5 @@ fields:
     label: Bild
     name: image
 pages:
+- content/editorial.md
 - content/bla.md
