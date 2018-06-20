@@ -128,7 +128,7 @@ module.exports = grunt => {
             }
         },
         clean: {
-            all: '<%= dir.dist %>'
+            all: ['<%= dir.dist %>/*', '!<%= dir.dist %>/uploads/**']
         }
     });
 
