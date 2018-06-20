@@ -113,20 +113,6 @@ module.exports = grunt => {
             }
 
         },
-        cacheBust: {
-            options: {
-                baseDir: '<%= dir.dist %>',
-                assets: ['js/*.js', 'css/*.css'],
-                jsonOutput: true
-            },
-            taskName: {
-                files: [{   
-                    expand: true,
-                    cwd: '<%= dir.layouts %>/partials/',
-                    src: ['*.html']
-                }]
-            }
-        },
         clean: {
             all: ['<%= dir.dist %>/*', '!<%= dir.dist %>/uploads/**']
         }
@@ -148,7 +134,6 @@ module.exports = grunt => {
 
     grunt.registerTask('build', [
         'prebuild',
-        'cacheBust'
     ]);
 
     grunt.registerTask('work', [

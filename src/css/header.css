@@ -8,7 +8,7 @@
         margin: 0;
         font-size: 2rem;
         text-decoration: none;
-        color: var(--white);
+        color: var(--text);
     }
 
     & a {

@@ -1,7 +1,7 @@
 .browserupgrade {
    margin: 0.2em 0;
-   background: var(--red);
-   color: var(--white);
+   background: var(--detail-background);
+   color: var(--text);
    padding: 0.2em 0;
 }
 

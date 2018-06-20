@@ -1,9 +1,9 @@
 body {
-    background-color: var(--blue);
+    background-color: var(--background);
     font-family: Tuna-Medium, Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: var(--white);
+    color: var(--text);
     margin: 0;
     font-size: 1rem;
 }
