@@ -3,12 +3,11 @@
     margin-bottom: 3%;
 
     & h1 {
-        font-variant: small-caps;
         line-height: 1.8rem;
         margin: 0;
         font-size: 2rem;
         text-decoration: none;
-        color: var(--text);
+        color: var(--headline-color);
     }
 
     & a {

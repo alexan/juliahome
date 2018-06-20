@@ -27,7 +27,7 @@
 
 .work-image {
    width: 85%;
-   background-color: var(--text);
+   background-color: var(--image-background-color);
    height: auto;
    padding: 2rem;
    box-sizing: border-box;
@@ -44,7 +44,7 @@
     z-index: 100;
     width: 85%;
     box-sizing: border-box;
-    background-color: var(--detail-background);
+    background-color: var(--detail-background-color);
     padding: 1rem;
     position: absolute;
     bottom: -3rem;

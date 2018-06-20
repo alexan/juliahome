@@ -1,5 +1,7 @@
 :root {
-  --detail-background: rgb(244, 138, 161);
-  --background: rgb(77, 165, 255);
-  --text: white;
+  --detail-background-color: rgb(40, 52, 138);
+  --background-color: white;
+  --image-background-color: rgb(245, 179, 209);
+  --text-color: white;
+  --headline-color: rgb(157, 248, 199);
 }

@@ -1,7 +1,7 @@
 .detail {
-    background-color: var(--detail-background);
+    background-color: var(--detail-background-color);
     margin-right: 3%;
-    border: 2px solid var(--text);
+    border: 2px solid var(--text-color);
     display: flex;
     padding: 3vw;
 }
