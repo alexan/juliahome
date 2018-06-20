@@ -1,0 +1,22 @@
+.browserupgrade {
+   margin: 0.2em 0;
+   background: var(--red);
+   color: var(--white);
+   padding: 0.2em 0;
+}
+
+.browserupgrade--no-js {
+   display: none;
+
+   @nest .no-js & {
+        display: block;
+   }
+}
+
+.browserupgrade--no-flexbox {
+   display: none;
+
+   @nest .no-flexbox & {
+        display: block;
+   }
+}

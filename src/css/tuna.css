@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Tuna-Medium';
+    src: url('../font/3371F6_0_0.eot');
+    src: url('../font/3371F6_0_0.eot?#iefix') format('embedded-opentype'),
+         url('../font/3371F6_0_0.woff2') format('woff2'),
+         url('../font/3371F6_0_0.woff') format('woff'),
+         url('../font/3371F6_0_0.ttf') format('truetype');
+ }
+
+
+@font-face {
+    font-family: 'Tuna-MediumItalic';
+    src: url('../font/3371F6_1_0.eot');
+    src: url('../font/3371F6_1_0.eot?#iefix') format('embedded-opentype'),
+         url('../font/3371F6_1_0.woff2') format('woff2'),
+         url('../font/3371F6_1_0.woff') format('woff'),
+         url('../font/3371F6_1_0.ttf') format('truetype');
+}

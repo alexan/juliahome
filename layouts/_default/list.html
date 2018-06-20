@@ -1,0 +1,18 @@
+{{ partial "header" . }}
+
+<div class="work-container">
+    <div class="work-gallery">
+        {{ range .Data.Pages }}
+            <a class="work" href="{{ .Permalink }}">
+                <img class="work-image" src="img/{{ .Params.image }}">
+                <div class="work-text">
+                        <div class="work-text-description">{{ .Summary }}</div>
+                        <span class="work-text-headline">{{ .Title }}</span>
+                </div>
+            </a>
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "footer" . }}
+

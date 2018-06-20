@@ -1,0 +1,14 @@
+{{ partial "header" . }}
+
+<div class="detail">
+   <div class="detail-gallery">
+      {{ range .Params.images }}
+            <img class="detail-item {{ if .big }}detail-item--big{{ end }}" src="img/{{ .image }}">
+      {{ end }}
+   </div>
+   <div class="detail-description">
+      {{ .Content }}
+   </div>
+</div>
+
+{{ partial "footer" . }}
