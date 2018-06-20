@@ -1,0 +1,22 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Titel
+  name: title
+- type: file
+  label: Bild
+  name: image
+- type: field_group_list
+  label: Bilder
+  name: images
+  fields:
+  - type: boolean
+    name: big
+    label: Groß
+  - type: file
+    label: Bild
+    name: image
+pages:
+- content/erste-seite.md
