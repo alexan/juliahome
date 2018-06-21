@@ -18,3 +18,5 @@ fields:
   - type: file
     label: Bild
     name: image
+pages:
+- content/work/corporate-design.md
