@@ -8,7 +8,7 @@ images:
   title: Quh Responsive
 - big: true
   image: "/uploads/quh-mockup.png"
-  title: Quh Start
+  title: Quh monitor
 draft: true
 
 ---
