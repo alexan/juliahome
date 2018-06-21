@@ -5,9 +5,9 @@ fields:
 - type: text
   label: Titel
   name: title
-- type: datetime
-  name: date
-  label: Datum
+- type: number
+  name: order
+  label: Reihenfolge
 - type: file
   label: Bild
   name: image

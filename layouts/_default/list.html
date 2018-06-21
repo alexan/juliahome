@@ -2,7 +2,7 @@
 
 <div class="work-container">
     <div class="work-gallery">
-        {{ range .Data.Pages }}
+        {{ range sort .Data.Pages ".Params.order" }}
             <a class="work" href="{{ .Permalink }}">
                 <img class="work-image" src="{{ .Params.image }}">
                 <div class="work-text">
