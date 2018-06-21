@@ -23,6 +23,9 @@ fields:
     name: image
   config:
     labelField: title
+- type: datetime
+  name: date
+  label: Datum
 pages:
 - content/work/corporate-design.md
 - content/work/compliment-cards.md
