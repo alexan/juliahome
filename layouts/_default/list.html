@@ -6,8 +6,8 @@
             <a class="work" href="{{ .Permalink }}">
                 <img class="work-image" src="{{ .Params.image }}">
                 <div class="work-text">
-                        <div class="work-text-description">{{ .Summary }}</div>
                         <span class="work-text-headline">{{ .Title }}</span>
+                        <div class="work-text-description">{{ .Summary }}</div>
                 </div>
             </a>
         {{ end }}

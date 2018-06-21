@@ -15,6 +15,7 @@
         works.forEach(function(work) {
             var workImage = work.querySelector(WORK_IMAGE_SELECTOR);
             var copyImage = workImage.cloneNode();
+            workImage.style.visibility = 'hidden';
             copyImage.classList.add(WORK_IMAGE_COPY_CLASS);
 
             work.append(copyImage);
