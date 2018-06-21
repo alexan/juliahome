@@ -4,6 +4,10 @@ date: 2018-06-21 09:28:14 +0000
 image: "/uploads/punero_Imagebroschüre.jpg"
 images:
 - big: true
+  image: "/uploads/punero_Imagebroschüre_Seiten_3-1"
+- big: true
+  image: "/uploads/punero_Imagebroschüre.jpg"
+- big: true
   image: "/uploads/punero_Imagebroschüre_Seiten_3.jpg"
 draft: true
 
