@@ -31,7 +31,7 @@
        width: CALC( 100% / 2 );
     }
 
-    & .detail-item--big {
+    &.detail-item--big {
         width: CALC( ( 100% / 3 ) * 2 );
 
        @media (max-width: 800px) {
