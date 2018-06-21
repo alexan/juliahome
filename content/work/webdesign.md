@@ -5,7 +5,7 @@ image: "/uploads/quh-mockup.png"
 images:
 - big: true
   image: "/uploads/quh-mockup.png"
-- big: true
+- big: false
   image: "/uploads/quh-mockup_Smartfon Kopie.png"
 draft: true
 
