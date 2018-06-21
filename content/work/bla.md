@@ -6,6 +6,7 @@ images:
 - image: "/uploads/Bildschirmfoto 2018-06-08 um 10.40.41.png"
   big: true
 - image: "/uploads/128px-A_Smiley.jpg"
+  big: true
 - image: "/uploads/Bildschirmfoto 2018-05-09 um 00.39.11.png"
 - big: true
   image: "/uploads/01.jpg"
