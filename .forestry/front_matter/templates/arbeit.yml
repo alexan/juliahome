@@ -21,6 +21,8 @@ fields:
   - type: file
     label: Bild
     name: image
+  config:
+    labelField: title
 pages:
 - content/work/corporate-design.md
 - content/work/compliment-cards.md
