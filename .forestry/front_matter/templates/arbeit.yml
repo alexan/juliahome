@@ -28,5 +28,5 @@ fields:
     labelField: title
 pages:
 - content/work/corporate-design.md
-- content/work/compliment-cards.md
 - content/work/webdesign.md
+- content/work/compliment-cards.md
