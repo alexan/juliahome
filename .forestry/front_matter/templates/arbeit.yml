@@ -19,5 +19,6 @@ fields:
     label: Bild
     name: image
 pages:
+- content/work/webdesign.md
 - content/work/compliment-cards.md
 - content/work/corporate-design.md
