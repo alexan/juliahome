@@ -19,5 +19,4 @@ fields:
     label: Bild
     name: image
 pages:
-- content/work/editorial.md
 - content/work/bla.md
