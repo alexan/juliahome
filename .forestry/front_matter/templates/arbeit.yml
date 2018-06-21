@@ -27,6 +27,6 @@ fields:
   config:
     labelField: title
 pages:
-- content/work/webdesign.md
-- content/work/compliment-cards.md
 - content/work/corporate-design.md
+- content/work/compliment-cards.md
+- content/work/webdesign.md
