@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "de-de"
 title = "Julia Brandmueller"
 MetaDataFormat = "yaml"
