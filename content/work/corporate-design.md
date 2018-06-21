@@ -8,7 +8,7 @@ images:
 - image: "/uploads/punero_Imagebroschüre_Seite_2.png"
 - big: true
   image: "/uploads/punero_Imagebroschüre_Seite_4.png"
-order: 20
+order: 200
 draft: true
 
 ---
