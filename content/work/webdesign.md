@@ -1,6 +1,6 @@
 ---
 title: Webdesign
-date: 2018-06-28 13:40:11 +0000
+date: 2018-05-07 13:40:11 +0000
 image: "/uploads/quh-mockup.png"
 images:
 - big: false
