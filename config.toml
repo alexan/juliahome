@@ -1,5 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "de-de"
+title = "Julia Brandmueller"
 MetaDataFormat = "yaml"
 uglyurls = true
+googleAnalytics = "UA-XXXX"

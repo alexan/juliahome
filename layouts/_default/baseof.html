@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title>
+      {{ block "title" . }} {{ .Site.Title }} {{ end }}
+   </title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="apple-touch-icon" href="apple-touch-icon.png">
+   <link rel="stylesheet" href="css/main.css" /> {{ template "_internal/google_analytics_async.html" . }}
+</head>
+
+<body>
+   <!--[if lt IE 11]>
+   <p class="browserupgrade">
+      You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.
+   </p>
+   <![endif]-->
+   <p class="browserupgrade browserupgrade--no-js">
+      Your browser dose not support
+      <strong>Javascript</strong>. Please
+      <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.
+   </p>
+   <p class="browserupgrade browserupgrade--no-flexbox">
+      You are using an
+      <strong>outdated</strong> browser. Please
+      <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.
+   </p>
+   
+   {{ block "header" . }} 
+   <header class="header">
+      <a href="/">
+         <h1>Julia Brandmüller</h1>
+      </a>
+   </header>
+   {{ end }}
+   {{ block "main" . }}
+   {{ end }}
+   {{ block "footer" . }}
+   {{ end }}
+   <script src="js/vendor.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
