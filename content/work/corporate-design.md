@@ -3,7 +3,10 @@ title: Corporate Design
 date: 2018-06-21 09:28:14 +0000
 image: "/uploads/punero_Imagebroschüre_RZ_DRUCK.pdf"
 images:
+- image: "/uploads/punero_Imagebroschüre.jpg"
+- image: "/uploads/punero_Imagebroschüre_Seite_2.png"
 - big: true
+  image: "/uploads/punero_Imagebroschüre_Seite_4.png"
 draft: true
 
 ---
