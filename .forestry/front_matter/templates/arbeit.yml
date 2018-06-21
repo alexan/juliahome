@@ -12,6 +12,8 @@ fields:
   label: Bilder
   name: images
   fields:
+  - type: text
+    default: Title
   - type: boolean
     name: big
     label: Groß
