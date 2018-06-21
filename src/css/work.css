@@ -57,7 +57,6 @@
 }
 
 .work-text-description {
-    margin-bottom: 1.5rem;
     opacity:0;
     transition:opacity 0.5s linear;
     font-size: 0.8rem;
@@ -69,4 +68,5 @@
 
 .work-text-headline {
     text-transform: uppercase;
+    margin-bottom: 1.5rem;
 }
