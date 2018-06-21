@@ -12,6 +12,9 @@ fields:
   label: Bilder
   name: images
   fields:
+  - type: text
+    label: Title
+    name: title
   - type: boolean
     name: big
     label: Groß
@@ -19,6 +22,6 @@ fields:
     label: Bild
     name: image
 pages:
-- content/work/webdesign.md
-- content/work/compliment-cards.md
 - content/work/corporate-design.md
+- content/work/compliment-cards.md
+- content/work/webdesign.md
