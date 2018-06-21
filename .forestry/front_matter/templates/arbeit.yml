@@ -5,6 +5,9 @@ fields:
 - type: text
   label: Titel
   name: title
+- type: datetime
+  name: date
+  label: Datum
 - type: file
   label: Bild
   name: image
@@ -23,9 +26,6 @@ fields:
     name: image
   config:
     labelField: title
-- type: datetime
-  name: date
-  label: Datum
 pages:
 - content/work/corporate-design.md
 - content/work/compliment-cards.md
