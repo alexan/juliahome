@@ -8,6 +8,11 @@ fields:
 - type: number
   name: order
   label: Reihenfolge
+- type: color
+  name: color
+  config:
+    color_format: Hex
+  label: Hintergrund Farbe
 - type: file
   label: Bild
   name: image
@@ -26,11 +31,6 @@ fields:
     name: image
   config:
     labelField: title
-- type: color
-  name: color
-  config:
-    color_format: Hex
-  label: Hintergrund Farbe
 pages:
 - content/work/webdesign-and-konzeption.md
 - content/work/corporate-design.md
