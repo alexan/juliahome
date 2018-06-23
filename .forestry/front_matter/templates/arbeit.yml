@@ -12,6 +12,7 @@ fields:
   name: color
   config:
     color_format: Hex
+    required: false
   label: Hintergrund Farbe
 - type: file
   label: Bild
