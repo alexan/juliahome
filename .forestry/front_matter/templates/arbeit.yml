@@ -26,8 +26,13 @@ fields:
     name: image
   config:
     labelField: title
+- type: color
+  name: color
+  config:
+    color_format: Hex
+  label: Hintergrund Farbe
 pages:
 - content/work/webdesign-and-konzeption.md
 - content/work/corporate-design.md
-- content/work/webdesign.md
 - content/work/compliment-cards.md
+- content/work/webdesign.md
