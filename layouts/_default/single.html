@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="detail">
+<div class="detail" {{ if isset .Params "color" }} style="--detail-background-color: {{ .Params.color }}" }} {{ end }}>
    <div class="detail-gallery">
       {{ range .Params.images }}
             <img class="detail-item {{ if .big }}detail-item--big{{ end }}" src="{{ .image }}">

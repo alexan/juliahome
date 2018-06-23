@@ -5,5 +5,6 @@ image: "/uploads/CC_GIf_2_1.gif"
 images: []
 order: 300
 draft: true
+color: "#28348a"
 
 ---
