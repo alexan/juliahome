@@ -11,7 +11,7 @@ images:
   title: Quh monitor
 draft: true
 order: 100
-color: "#28348a"
+color: "#B6BBE3"
 
 ---
 Für das Milchpulver QUH wurde eine responsive Produktseite entwickelt. Im Fokus der Gestaltung lag eine übersichtliche und moderne Aufteilung der Produktvorteile. Im Kontrast zu der bereits bestehenden sehr technisch anmutenden Verpackung steht eine reduzierte und natürliche Bildsprache.
