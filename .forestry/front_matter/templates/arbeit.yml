@@ -5,6 +5,8 @@ fields:
 - type: text
   label: Titel
   name: title
+  config:
+    required: true
 - type: number
   name: order
   label: Reihenfolge
