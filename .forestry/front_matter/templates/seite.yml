@@ -1,0 +1,34 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Titel
+  name: title
+  config:
+    required: true
+- type: number
+  name: order
+  label: Reihenfolge
+- type: color
+  name: color
+  config:
+    color_format: Hex
+  label: Hintergrund Farbe
+- type: field_group_list
+  label: Bilder
+  name: images
+  fields:
+  - type: text
+    label: Title
+    name: title
+  - type: boolean
+    name: big
+    label: Groß
+  - type: file
+    label: Bild
+    name: image
+  config:
+    labelField: title
+pages:
+- content/about.md

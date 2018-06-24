@@ -37,6 +37,15 @@
       </a>
    </header>
    {{ end }}
+   {{ block "navigation" . }}
+   <nav class="navigation">
+         {{ range sort ( where (where .Site.Pages "Section" "") "Kind" "page" ) ".Params.order" }}
+            <a class="navigation-item" href="{{ .Permalink }}" {{ if isset .Params "color" }} style="--detail-background-color: {{ .Params.color }}" }} {{ end }}>
+               {{ .Title }}
+            </a>
+         {{ end }}
+   </nav>
+   {{ end }}
    {{ block "main" . }}
    {{ end }}
    {{ block "footer" . }}

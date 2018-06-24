@@ -1,0 +1,10 @@
+.navigation {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.navigation-item {
+   background-color: var(--detail-background-color);
+   color: var(--text-color);
+   text-decoration: none;
+}
