@@ -29,7 +29,7 @@
     "load-grunt-tasks": "4.0.0",
     "masonry-layout": "4.2.1",
     "pixrem": "4.0.1",
-    "postcss": "6.0.22",
+    "postcss": "6.0.23",
     "postcss-cssnext": "3.1.0",
     "postcss-custom-properties": "7.0.0",
     "postcss-nesting": "6.0.0"

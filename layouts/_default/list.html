@@ -1,18 +1,19 @@
 {{ define "main" }}
 
-<div class="work-container">
-    <div class="work-gallery">
-        {{ range sort (where .Site.Pages "Section" "work") ".Params.order"  }}
-            <a class="work" href="{{ .Permalink }}">
-                <img class="work-image" src="{{ .Params.image }}">
-                <div class="work-text" {{ if isset .Params "color" }} style="--detail-background-color: {{ .Params.color }}" }} {{ end }}>
-                        <div class="work-text-headline">{{ .Title }}</div>
-                        <div class="work-text-description">{{ .Summary }}</div>
-                </div>
-            </a>
-        {{ end }}
-    </div>
-</div>
+<main>
+   <div class="work-container">
+      <div class="work-gallery">
+         {{ range sort (where .Site.Pages "Section" "work") ".Params.order" }}
+         <a class="work" href="{{ .Permalink }}">
+            <img class="work-image" src="{{ .Params.image }}">
+            <div class="work-text" {{ if isset .Params "color" }} style="--detail-background-color: {{ .Params.color }}" }} {{ end }}>
+               <div class="work-text-headline">{{ .Title }}</div>
+               <div class="work-text-description">{{ .Summary }}</div>
+            </div>
+         </a>
+         {{ end }}
+      </div>
+   </div>
+</main>
 
 {{ end }}
-

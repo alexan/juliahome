@@ -1,14 +1,15 @@
 {{ define "main" }}
 
-<div class="detail" {{ if isset .Params "color" }} style="--detail-background-color: {{ .Params.color }}" }} {{ end }}>
-   <div class="detail-gallery">
-      {{ range .Params.images }}
-            <img class="detail-item {{ if .big }}detail-item--big{{ end }}" src="{{ .image }}">
-      {{ end }}
+<main>
+   <div class="detail" {{ if isset .Params "color" }} style="--detail-background-color: {{ .Params.color }}" }} {{ end }}>
+      <div class="detail-gallery">
+         {{ range .Params.images }}
+         <img class="detail-item {{ if .big }}detail-item--big{{ end }}" src="{{ .image }}"> {{ end }}
+      </div>
+      <div class="detail-description">
+         {{ .Content }}
+      </div>
    </div>
-   <div class="detail-description">
-      {{ .Content }}
-   </div>
-</div>
+</main>
 
 {{ end }}
