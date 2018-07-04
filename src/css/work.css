@@ -3,20 +3,20 @@
 }
 
 .work-gallery {
-    margin: 0 -1.5vw CALC( -1 * ( 1.5vw + 1.5em + 5px ) ) -1.5vw;
+    margin: 0 -1.5vw calc( -1 * ( 1.5vw + 1.5em + 5px ) ) -1.5vw;
 }
 
 .work {
    z-index: auto;
-   width: CALC( 100% / 3 - 2 * 1.5vw );
-   margin: 0 1.5vw CALC( 1.5vw + 3rem ) 1.5vw;
+   width: calc( 100% / 3 - 2 * 1.5vw );
+   margin: 0 1.5vw calc( 1.5vw + 3rem ) 1.5vw;
    position: relative;
 
    text-decoration: inherit;
    color: inherit;
 
    @media (max-width: 800px) {
-      width: CALC( 100% / 2 - 2 * 1.5vw );
+      width: calc( 100% / 2 - 2 * 1.5vw );
    }
 
    @media (max-width: 500px) {
@@ -56,8 +56,8 @@
 }
 
 .work-text-description {
-    opacity:0;
-    transition:opacity 0.5s linear;
+    opacity: 0;
+    transition: opacity 0.5s linear;
     font-size: 0.8rem;
 
     @nest .work-text:hover & {
