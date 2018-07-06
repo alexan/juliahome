@@ -31,5 +31,5 @@ fields:
   config:
     labelField: title
 pages:
-- content/kontakt.md
 - content/about.md
+- content/kontakt.md
