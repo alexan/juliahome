@@ -1,6 +1,6 @@
+MetaDataFormat = "yaml"
 baseURL = "/"
+googleAnalytics = "UA-XXXX"
 languageCode = "de-de"
 title = "Julia Brandmueller"
-MetaDataFormat = "yaml"
 uglyurls = true
-googleAnalytics = "UA-XXXX"
