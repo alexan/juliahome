@@ -8,8 +8,7 @@
   },
   "scripts": {
     "build": "grunt",
-    "start": "grunt work",
-    "postinstall": "npm run build"
+    "start": "grunt work"
   },
   "author": "",
   "license": "ISC",
