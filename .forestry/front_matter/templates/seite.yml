@@ -1,4 +1,5 @@
 ---
+label: seite
 hide_body: false
 is_partial: false
 fields:
@@ -31,5 +32,5 @@ fields:
   config:
     labelField: title
 pages:
-- content/about.md
 - content/kontakt.md
+- content/about.md

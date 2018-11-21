@@ -1,4 +1,5 @@
 ---
+label: arbeit
 hide_body: false
 is_partial: false
 fields:
@@ -34,7 +35,7 @@ fields:
   config:
     labelField: title
 pages:
+- content/work/corporate-design.md
 - content/work/webdesign-and-konzeption.md
 - content/work/compliment-cards.md
 - content/work/webdesign.md
-- content/work/corporate-design.md
